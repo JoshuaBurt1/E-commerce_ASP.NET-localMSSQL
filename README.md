@@ -1,10 +1,16 @@
 # To Run
 
-#IN MS SQL Server (local database)
+#MS SQL Server (local database)
 
 1.	CREATE DATABASE QuartzCreations;
+   
+#note: to run on an external database (Azure)
+A. Create an Azure account 
+B. Create a resource group
+C. Create an SQL Server
+D. Create an SQL Database - obtain connection string from Azure and apply to appsettings.json "Default Connection": "copied connection string"
 
-#IN VISUAL STUDIO (upper left)
+#VISUAL STUDIO (upper left)
 
 1.	Add Connection:
 Enter ServerName: “name”
@@ -15,3 +21,4 @@ Select or Enter a database name: “QuartzCreations”
 Add-migration InitialModels
 Update-database
 5.	Run program (Start without debugging)
+
