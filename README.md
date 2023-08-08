@@ -5,6 +5,7 @@
 1.	CREATE DATABASE QuartzCreations;
    
 #note: to run on an external database (Azure)
+
 A. Create an Azure account 
 B. Create a resource group
 C. Create an SQL Server
